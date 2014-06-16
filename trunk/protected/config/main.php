@@ -15,7 +15,7 @@ return array(
         'log',
         'bootstrap'
     ),
-    //Uncomente if you have a selecto default controller
+    //Descomenta esta linea para tener un controlador por defecto
 //    'defaultController' => 'module/controller/action',
     // autoloading model and component classes
     'import' => array(

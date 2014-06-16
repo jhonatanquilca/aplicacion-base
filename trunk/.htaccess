@@ -1,0 +1,7 @@
+RewriteEngine On
+#Si es necesario activar para url limpias 
+#Tambien acttivar el modulo rewrite en el hhtpd.conf de tu servidor
+#RewriteBase /nombre de tu placacion/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\?*$ index.php/$1 [L,QSA]

@@ -16,7 +16,7 @@ return array(
         'bootstrap'
     ),
     //Descomenta esta linea para tener un controlador por defecto
-//    'defaultController' => 'module/controller/action',
+ 'defaultController' => 'principal/dashboard/index',
     // autoloading model and component classes
     'import' => array(
         'application.models.*',
@@ -27,6 +27,7 @@ return array(
     ),
     'modules' => array(
 // aqui pones tus modulos
+  'principal',
         // uncomment the following to enable the Gii tool   
         'gii' => array(
             'class' => 'system.gii.GiiModule',

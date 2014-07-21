@@ -142,7 +142,7 @@ return array(
 //            'errorAction' => 'site/error',
 //            'errorAction' => '/modulo/controlador/accion',
 //           @TODO cambiar esto es un jemplo
-            'errorAction' => '/crm/dashboard/error',
+            'errorAction' => '/principal/dashboard/error',
         ),
         'log' => array(
             'class' => 'CLogRouter',
